@@ -13,7 +13,7 @@ using namespace sf;
 int main()
 {
     // Initialise the game
-    bool gameOn = true;
+    bool gameOn = false;
 
     RenderWindow window(VideoMode(WIN_WIDTH, WIN_HEIGHT), "JUMP OR DIE");
     window.setFramerateLimit(FRAME_RATE);
